@@ -1,17 +1,10 @@
-import com.dsa.LinkedList.LinkedList;
-import com.dsa.Stack.twoStackExercise;
+import com.gfg.questions.Strings.AnagramChecker;
 
 
 public class Main {
     public static void main(String[] args) {
 
-        var stacks = new twoStackExercise();
-        stacks.push2(10);
-        stacks.push2(30);
-        stacks.push2(20);
-        stacks.push2(30);
-        stacks.push1(50);
-
+        System.out.println(AnagramChecker.o1Check("rahul","hulra"));
     }
 
 
